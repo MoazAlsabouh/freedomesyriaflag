@@ -27,6 +27,12 @@ body {
   -o-transform: rotate(35deg);
 }
 
+@media (max-width: 720px) {
+  .star {
+    font-size: 2.25em;
+  }
+}
+
 .star::before {
   content: "";
   border-bottom: 0.8em var(--star-color) solid;
